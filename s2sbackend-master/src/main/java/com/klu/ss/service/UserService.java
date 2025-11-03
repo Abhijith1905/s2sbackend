@@ -1,0 +1,11 @@
+package com.klu.ss.service;
+
+import com.klu.ss.model.User;
+
+public interface UserService {
+	public String signup(User u);
+	public User login(String u,String p);
+//	public String login(String u,String p);
+	public Long getUserIdByUsername(String username);
+	public User findUserByUsername(String username);
+}
