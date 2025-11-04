@@ -10,6 +10,6 @@ public class CheckController
 {
 	 @GetMapping("/")
 	    public String check() {
-	        return "Working Good";
+	        return "Working new";
 	    }
 }
